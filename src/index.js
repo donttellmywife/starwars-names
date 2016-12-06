@@ -1,5 +1,6 @@
-var uniqueRandomArray = require('unique-random-array')
-var starwarsNames = require('./names.json');
+import uniqueRandomArray from 'unique-random-array';
+import starwarsNames from './names.json';
+
 var getRandomItem = uniqueRandomArray(starwarsNames);
 
 module.exports = {
