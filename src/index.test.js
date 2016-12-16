@@ -14,7 +14,7 @@ describe('starwars-names', function () {
         });
 
 
-        it('should contain "Luke SKylwalker"', function () {
+        it('should contain "Luke Skywalker"', function () {
             expect(starWars.all).to.include('Luke Skywalker');
         });
     })
